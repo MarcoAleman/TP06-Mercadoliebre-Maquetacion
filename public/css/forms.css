@@ -1,0 +1,47 @@
+main.forms {
+    background-color: #e6ebeb;
+    width: 100%;
+}
+
+.formularioflex{
+    padding: 20px 0px;
+    width: 70%;
+}
+
+.formularioflex form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.formularioflex form .input-form {
+    width: 80%;
+    text-align: center;
+    margin: 10px 0px;
+}
+
+.formularioflex form .input-form input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 5px;
+}
+
+.formularioflex form h2,
+.formularioflex form .btns{
+    margin-top: 20px;
+}
+
+.formularioflex form .btns button{
+    color: white;
+    width: 100px;
+    padding: 5px;
+    background-color: var(--celeste);
+    border: none;
+    border-radius: 10px;
+}
+
+.formularioflex form .btns button:hover{
+    background-color: #0022AA;
+}
